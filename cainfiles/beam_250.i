@@ -86,7 +86,7 @@ CFQED    BEAMSTRAHLUNG, POLARIZATION, PMAX=0.5;
 !     Turn on coherent pair (ESLOPE has to be set!!!);
 CFQED    PAIRCREATION, POLARIZATION, PMAX=0.5;
 !     Define External field
-!EXTERNALFIELD B=(0.0, 0.0, 3.5);
+EXTERNALFIELD B=(0.0, 0.0, 3.5);
       
 !     Turn on incoherent pair
 IF incpair > 0;
